@@ -102,6 +102,10 @@ GEM
     jbuilder (2.11.5)
       actionview (>= 5.0.0)
       activesupport (>= 5.0.0)
+    jpmobile (7.0.1)
+      mail (~> 2.7.0)
+      rexml
+      scanf
     loofah (2.18.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
@@ -169,6 +173,7 @@ GEM
       io-console (~> 0.5)
     rexml (3.2.5)
     rubyzip (2.3.2)
+    scanf (1.0.0)
     selenium-webdriver (4.2.1)
       childprocess (>= 0.5, < 5.0)
       rexml (~> 3.2, >= 3.2.5)
@@ -219,6 +224,7 @@ DEPENDENCIES
   debug
   importmap-rails
   jbuilder
+  jpmobile
   puma (~> 5.0)
   rails (~> 7.0.3)
   selenium-webdriver
